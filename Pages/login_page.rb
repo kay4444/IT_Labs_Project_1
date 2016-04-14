@@ -3,7 +3,6 @@ require 'selenium-webdriver'
 require "../Variables/variable"
 require "../Settings/main_settings"
 
-
 module Login_page
   # include Variable
   include Main_Settings
@@ -14,10 +13,8 @@ module Login_page
     @login_button = @driver.find_element(:xpath, ::Login_button_v)
 
     wait_till_ell_is_present(@login_textbox)
-    @login_textbox.send_keys "kay4444@ukr.net"
-    @password_textbox.send_keys "06011988"
+    @login_textbox.send_keys "kay444413@ukr.net"
+    @password_textbox.send_keys "kay444413@ukr.net"
     @login_button.click
-
   end
-
 end
