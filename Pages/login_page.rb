@@ -16,5 +16,7 @@ module Login_page
     @login_textbox.send_keys "kay444413@ukr.net"
     @password_textbox.send_keys "kay444413@ukr.net"
     @login_button.click
+
+    one =1
   end
 end
