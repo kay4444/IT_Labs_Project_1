@@ -8,9 +8,9 @@ class Test_cases_1 < Test::Unit::TestCase
   include Login_page
 
   def test_login
-    setup
+    # setup
     login
-    teardown
+    # teardown
   end
 
 end
